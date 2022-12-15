@@ -1,0 +1,472 @@
+@font-face {
+	font-family: 'Exo_r'; 
+	src: url(fonts/Exo-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_r_i'; 
+	src: url(fonts/Exo-Italic.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_m'; 
+	src: url(fonts/Exo-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_t'; 
+	src: url(fonts/Exo-Thin.ttf); 
+}
+
+body{
+    display: block;
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+}
+
+div.odin{
+    background: url(1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 820px; 
+    text-align: center;
+    margin: 0;
+    font-family: 'Exo_t';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #282828;
+}
+.odin1 {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.odin2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*
+.odin1 *{
+    margin: 0;
+}
+*/
+div.odin p{
+    font-family: 'Exo_r';
+    font-size: 14px;
+    color: #868789;
+    margin-top: 10px;
+}
+div.odin h1{
+    margin: 0;
+    font-family: 'Exo_t';
+}
+#play{
+    background: url(10.png) no-repeat;
+    background-position: 55% 50%;
+    background-color: #8186a3;
+    height: 59px;
+    width: 59px;
+    border-radius: 50px;
+    border: none;
+    margin: 25px;
+}
+#trynow{
+    width: 190px;
+    height: 50px;
+    background-color: #ff6d6d;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Exo_r';
+    font-size: 16px;
+    align-items: center;
+    margin: 5px;
+}
+
+
+div.dva{
+    display: flex;
+    height: 720px;
+}
+.dva112{
+    justify-content: center;
+    align-content: center;
+}
+.dva1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dva12{
+    width: 70%;
+    align-self: center;
+    margin-top: 180px;
+}
+.dva12 p.p{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #282828;
+}
+.dvatxt{
+    display: flex;
+}
+.dvatxt h1{
+    margin: 0;
+}
+.dvatxt p{
+    margin: 0;
+    font-size: 40px;
+    align-self: flex-end;
+}
+.dva1 p{
+    margin: 0;
+}
+.dva1 h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
+}
+div.dva2{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85%;
+    height: 720px; 
+    margin: 0 auto;
+}
+
+div.tri{
+    background: url(3.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 675px; 
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    background: url(earphones.png) no-repeat center;
+    background-position: 90% -50%;
+    width: 100%;
+    height: 230px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.tritext{
+    align-self: flex-end;
+}
+.tri0 h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
+    margin: 0;
+}
+div.tri123{
+    display: flex;
+    height: 60%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Exo_m';
+    color: #282828;
+}
+.tri123 h1{
+    font-size: 22px;
+}
+.tri123 p{
+    font-size: 16px;
+}
+div.four{
+    background-image: url(4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 5%;
+    width: 100%;
+    display: flex;
+    height: 550px;
+}
+div.four1{
+    display: flex;
+    height: 550px;
+    width: 55%;
+}
+div.four2{
+    width: 45%;
+    display: flex;
+}
+.fourtext{
+    align-self: center;
+    height: 50%;
+}
+.fourtext p{
+    margin: 0;
+}
+.fourtext h1{
+    font-family: 'Exo_m';
+    font-size: 40px;
+    color: #000;
+}
+.fourtext p.text{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #282828;
+}
+.k{
+    align-self: center;
+    margin: 0 auto;
+}
+div.five{
+    background-image: url(6.png);
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 650px; 
+    margin: 0 auto;
+}
+div.five123{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 75%;
+}
+.five123 h1{
+    font-family: 'Exo_m';
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0;
+}
+.five123 p.text{
+    font-family: 'Exo_r_i';
+    font-size: 16px;
+    color: #b3b3b5;
+    margin-top: 20px;
+}
+div.five4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 99%;
+}
+
+div.six{
+    background-color: #f6f5f3;
+    height: 755px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sixtext{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    justify-content: flex-end;
+}
+.sixtext p{
+    margin:0;
+}
+.sixtext p.text{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #6e6e6d;
+}
+div.six1{
+    align-self: flex-end;
+}
+
+div.seven{
+    background-image: url(8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 467px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.seven2{
+    display: flex;
+    height: 200px;
+    margin: 0 50px;
+}
+.seventext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 55%;
+}
+.seventext p{
+    margin: 0;
+}
+.seventext h2{
+    font-family: 'Exo_m';
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+form{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fullname{
+    background-color: #454c77;
+    border: none;
+    border-radius: 2px;
+    width: 280px;
+    height: 50px;
+}
+#email{
+    background-color: #454c77;
+    border: none;
+    border-radius: 2px;
+    width: 280px;
+    height: 50px;
+}
+#pass{
+    background-color: #454c77;
+    border: none;
+    border-radius: 2px;
+    width: 280px;
+    height: 50px;
+}
+::-webkit-input-placeholder {color: #ffffff;}
+input:not(:placeholder-shown) ~ label,
+input:focus ~ label{
+    display: flex;
+    justify-items: center;
+}
+.seven2 #trynow2{
+    width: 265px;
+    height: 50px;
+    background-color: #ff6d6d;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Exo_r';
+    font-size: 16px;
+    align-items: center;
+    margin: 5px;
+}
+.knopka{
+    height: 100px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.arrow{
+    float: left;
+    margin: 8px 18px 0 0;
+}
+.knopka h3{
+    left: 10px;
+    margin: 0 10px 10px 0;
+    font-family: 'Exo_r';
+    font-size: 16px;
+    color: #ffffff;
+}
+.seven1{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Exo_r';
+    font-size: 16px;
+    color: #a7aabc;
+}
+
+.pod{
+    text-decoration: underline;
+}
+footer{
+    background: url(11.png) no-repeat center;
+    background-position: 100% 99%;
+    display: flex;
+    justify-content: space-between;
+    height: 332px;
+}
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+}
+.f2{
+    height: 200px;
+}
+.f3{
+    height: 200px;
+}
+.f4{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#email2{
+    background-color: #f6f6f6;
+    border: #f1f1f2a3;
+    border-radius: 3px;
+    width: 215px;
+    color: grey;
+}
+.f41{
+    display: flex;
+
+}
+.knopka2{
+    background: url(16.png) no-repeat center;
+    width: 52px;
+    height: 49px;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 50px;
+}
+.footer h1{
+    font-family: 'Exo_r';
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-family: 'Exo_m';
+    font-size: 16px;
+    color: #868686;
+}
+span .p{
+    height: 100px;
+}
+.red{
+    color: #ff6d6d;
+    font-family: 'Exo_m';
+}
+.newred{
+    color: #ff6d6d;
+    font-family: 'Exo_m';
+    font-size: 16px;
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+p{
+    margin-top: 0;
+}
